@@ -1,0 +1,57 @@
+.todoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 10px auto;
+  padding: 15px 8px;
+  border: 1px solid rgb(124, 123, 123);
+  border-radius: 10px;
+}
+
+.todoText {
+  margin: 5px;
+  width: 60%;
+  color: rgb(65, 64, 64);
+  font-size: 14px;
+  /* overflow-x: auto; */
+}
+
+.toggleStatusPending {
+  background-color: rgb(234, 15, 15);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  /* width: 14%; */
+}
+
+.toggleStatusCompleted {
+  background-color: green;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  /* width: 14%; */
+}
+
+.toggleBtn {
+  background-color: gold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid gold;
+  cursor: pointer;
+  /* width: 14%; */
+}
+
+.deleteBtn {
+  background-color: rgb(251, 0, 0);
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  border: 1px solid rgb(235, 20, 20);
+  cursor: pointer;
+  /* width: 14%; */
+}

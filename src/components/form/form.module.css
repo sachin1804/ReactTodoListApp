@@ -1,0 +1,21 @@
+form input[type="text"] {
+  width: 92%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(81, 81, 84);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(72, 72, 72);
+}
+
+form input[type="submit"] {
+  background-color: #06a223;
+  padding: 8px 12px;
+  font-size: 15px;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
