@@ -1,3 +1,8 @@
+#ReactTodoApp 
+
+This is a todo APP developed using Reactjs and redux toolKit. It uses API to fetch data dynamically from the web by making a get request and we can add a todo list by making a post request also. We have a toggle button that toggles the todo pending or completed also we have a delete button that deletes the todo from the list by making an delete request to the API server.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
