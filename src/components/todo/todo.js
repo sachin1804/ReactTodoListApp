@@ -23,12 +23,14 @@ export default function Todo({ text, completed, index }) {
           value="toggle"
           className={styles.toggleBtn}
           onClick={() => dispatch(actions.toggle(index))}
+          title="click to toggle"
         />
         <input
           type="button"
           value="Delete"
           className={styles.deleteBtn}
           onClick={() => dispatch(deleteTodoAsync(index))}
+          title="Click to delete"
         />
       </div>
     </>
